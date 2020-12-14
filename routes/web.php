@@ -28,3 +28,7 @@ Route::get('/redit', [shController::class, 'try']);
 Route::get('/greeting', function () {
     return 'Hello World';
 });
+
+Route::get('/homepage',function(){
+    return view('homepage');
+});
