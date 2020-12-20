@@ -1,12 +1,27 @@
 <p align="center">
-Kelompok 4 : 
-
-Dhiva Mustikananda - 185150701111013
-Fitri Zakiatul Lailia - 185150700111024 
-Nur Eka Hartiningrum - 185150700111029 
-Priomas Yuliono - 185150700111026  
-Ikhsan Khaliq - 185150707111016
+    <b>
+Kelompok 4
+    </b>
+    </p>
+<p align="center">
+    Dhiva Mustikananda - 185150701111013
 </p>
+<p align="center">
+    Fitri Zakiatul Lailia - 185150700111024 
+</p>
+<p align="center">
+    Nur Eka Hartiningrum - 185150700111029
+</p>
+<p align="center">
+    Priomas Yuliono - 185150700111026 
+</p>
+<p align="center">
+    Ikhsan Khaliq - 185150707111016
+</p>
+
+ 
+
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
