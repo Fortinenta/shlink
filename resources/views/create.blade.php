@@ -14,7 +14,10 @@
     <header>
         <nav class="navbar navbar-dark bg-dark justify-content-between">
             <a class="navbar-brand text-light ml-3">ShLink</a>
-            
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </nav>
     </header>
 
@@ -35,39 +38,30 @@
         </div>
 
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark grey lighten-5 d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-dark grey lighten-5 d-flex justify-content-between z-depth-1-bottom">
 
-            <div class="justify-content-center">
+            <div>
                 <ul class="list-inline my-2 py-1 dark-grey-text">
                     <li class="list-inline-item">
                         <i class="fas fa-bars" aria-hidden="true"></i>
                     </li>
-                    <li class="list-inline-item font-weight-bold text-uppercase display-4">
-                        Welcome To ShLink
+                    <li class="list-inline-item font-weight-bold text-uppercase">
+                        Shorten
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="list-inline my-2 py-1 dark-grey-text">
+                    <li class="list-inline-item">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <i class="fas fa-ellipsis-v pl-3" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
 
         </nav>
         <!--/.Navbar-->
-
-        <form class="" action="{{ url('tambah') }}" method="post">
-            @csrf
-            <div class="card">
-                <div class="card-body">
-                    <div class="card-header">
-                    <h2><small></small></h2>
-                        Add Your New Short Link
-                    </div>
-                    <h5 class="card-title">Title</h5>
-                    <input type="text" name="title" id="title">
-                    <h5 class="card-title">URL Destination</h5>
-                    <input type="text" name="url" id="url">
-                    <input type="submit" name="" value="Tambah" class="btn btn-primary">
-
-                </div>
-            </div>
-        </form>
 
         <div class="card-body grey lighten-5 rounded-bottom">
 
@@ -79,25 +73,22 @@
                 <div class="col-6 p-1">
 
                     <div class="card grey lighten-2">
-                        <div class="card-body pb-0 bg-info">
+                        <div class="card-body pb-0">
                             <i class="fas fa-cloud fa-3x pb-4"></i>
-                            <div class="d-flex justify-content-between bg-info">
-                                <p class="mb-4 h5">{{$item->title}}</p>
-                                <p class="mb-4 hour">{{$item->createdAt}}</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-0 h5">{{$item->title}}</p>
+                                <p class="mb-0 hour">{{$item->createdAt}}</p>
                             </div>
                         </div>
                         <hr>
                         <div class="card-body pt-0">
                             <h6 class="font-weight-bold mb-1">{{$item->shortUrl}}
-                                <!-- <button onclick="{{$item->shortUrl}}">Go</button> -->
+                            <!-- <button onclick="{{$item->shortUrl}}">Go</button> -->
                             </h6>
                             <p class="mb-0">{{$item->destination}}</p>
                         </div>
                     </div>
 
-                    <a href="{{ url('delete', $item->id) }}">
-                        <button type="button" name="button">Delete</button>
-                    </a>
                 </div>
                 <!-- Grid column -->
 
@@ -107,6 +98,11 @@
             </div>
             <!-- Grid row -->
 
+        </div>
+        <div>
+        <a href="#" class="btn btn-info btn-lg ">
+          <span class="glyphicon glyphicon-plus-sign"></span> +
+        </a>
         </div>
     </div>
 

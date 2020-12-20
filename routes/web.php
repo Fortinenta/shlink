@@ -21,9 +21,11 @@ Route::get('/', function () {
 //     return redirect('https://web.whatsapp.com/');
 // });
 
-Route::get('/redit', [shController::class, 'try']);
+Route::get('/redit', [shController::class, 'head']);
 
-// Route::get('/redit','shController@try');
+Route::post('/tambah', [shController::class, 'add']);
+
+Route::get('/delete/{id}', [shController::class, 'delete']);
 
 Route::get('/greeting', function () {
     return 'Hello World';
@@ -32,3 +34,5 @@ Route::get('/greeting', function () {
 Route::get('/homepage',function(){
     return view('homepage');
 });
+
+ 
