@@ -1,7 +1,6 @@
-
-    <h3 align="center">
-Kelompok 4
-    </h3>
+<p align="center"><b>
+    Kelompok 4</b>
+    </p>
 <p align="center">
     Dhiva Mustikananda - <b>185150701111013</b>
 </p>
