@@ -1,22 +1,22 @@
 <p align="center">
-    <b>
+    <h3><b>
 Kelompok 4
-    </b>
+    </b></h3>
     </p>
 <p align="center">
-    Dhiva Mustikananda - 185150701111013
+    Dhiva Mustikananda - <b>185150701111013</b>
 </p>
 <p align="center">
-    Fitri Zakiatul Lailia - 185150700111024 
+    Fitri Zakiatul Lailia - <b>185150700111024 </b>
 </p>
 <p align="center">
-    Nur Eka Hartiningrum - 185150700111029
+    Nur Eka Hartiningrum - <b>185150700111029</b>
 </p>
 <p align="center">
-    Priomas Yuliono - 185150700111026 
+    Priomas Yuliono - <b>185150700111026 </b>
 </p>
 <p align="center">
-    Ikhsan Khaliq - 185150707111016
+    Ikhsan Khaliq - <b>185150707111016</b>
 </p>
 
  
